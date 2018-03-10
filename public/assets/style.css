@@ -1,0 +1,47 @@
+body {
+  background-image: url("/assets/images/bobsburgers.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+
+
+.undevoured {
+  background-color: rgb(118, 121, 130);
+  border-style: groove;
+  border-width: 20px;
+  border-color: rgb(184, 82,77);
+  float: right;
+  margin-right: 0;
+  height: 900px;
+  width: 400px;
+  margin-top: 0;
+  font-family: Writing, Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+.addeaten {
+  background-color: rgb(118, 121, 130);
+  width: 20%;
+  background-color: rgb(118, 121, 130);
+  border-style: groove;
+  border-width: 20px;
+  border-color: rgb(184, 82,77);
+  font-family: Writing, Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 30px;
+
+}
+
+.bottom {
+  margin-top: 10px;
+}
+
+@font-face {
+  font-family: Writing;
+  src: url("/assets/images/writing.otf");
+}
